@@ -1,0 +1,49 @@
+<html><body><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Format Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Format Converter</h1>
+
+        <label for="imageInput">Choose an image:</label>
+        <label class="file-input-label" for="imageInput">Select Image</label>
+        <input type="file" id="imageInput" accept="image/*" onchange="previewImage()">
+        
+        <!-- Image Preview Box -->
+        <img id="previewImage" src="" alt="Preview Image">
+
+        <label for="formatSelect">Choose output format:</label>
+        <select id="formatSelect">
+            <option value="image/jpeg">JPG</option>
+            <option value="image/png">PNG</option>
+            <option value="image/bmp">BMP</option>
+            <option value="image/gif">GIF</option>
+            <option value="image/tiff">TIFF</option>
+        </select>
+
+        <button id="convertButton" onclick="convertImage()">Convert Image</button>
+
+        <!-- Loading indicator -->
+        <div id="loadingMessage">Converting image...</div>
+        <div id="spinner"></div>
+
+        <canvas id="canvas" style="display:none;"></canvas>
+
+        <a id="downloadLink" href="#" download="converted_image" style="display:none;">Download Converted Image</a>
+    </div>
+
+    <!-- Social Media Section -->
+    <div style="text-align: center; margin-top: 20px;">
+        <p>Connect with me:</p> 
+        <a href="https://in.linkedin.com/in/md-nosibul-islam-b79a59268" target="_blank" style="text-decoration: none; color: #333; font-size: 18px; margin-right: 15px;">LinkedIn</a> 
+        <a href="https://github.com/mdnosibulislam" target="_blank" style="text-decoration: none; color: #333; font-size: 18px;">GitHub</a> 
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html></body></html>
