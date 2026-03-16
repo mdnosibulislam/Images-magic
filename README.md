@@ -11,7 +11,7 @@ Everything runs directly in the browser using HTML, CSS, and JavaScript — no s
 
 If you enabled GitHub Pages, users can open the tool here:
 
-"🚀 Open Web App" (https://YOUR-USERNAME.github.io/YOUR-REPOSITORY)
+"🚀 Open Web App" (https://mdnosibulislam.github.io/Images-magic/)
 
 ---
 
@@ -85,7 +85,7 @@ Decode (Extract File)
 
 1. Download or clone this repository
 
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+git clone https://github.com/mdnosibulislam/Images-magic.git
 
 2. Open the folder
 
