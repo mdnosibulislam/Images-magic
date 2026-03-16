@@ -30,7 +30,7 @@ A simple browser-based tool that hides files inside an image and extracts them l
 </p>
 
 <p align="center">
-(Add a screenshot of your website and upload it as <b>screenshot.png</b>)
+(<b>Added a screenshot of website</b>)
 </p>
 
 <hr>
