@@ -1,141 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
+<h1 align="center">🖼️ Image Steganography Web Tool</h1>
 
-<head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Image Steganography Web Tool</title>
-
-<style>
-
-body{
-font-family:Arial, sans-serif;
-margin:0;
-background:#f4f6f8;
-color:#333;
-line-height:1.6;
-}
-
-.container{
-max-width:900px;
-margin:auto;
-padding:40px 20px;
-}
-
-h1{
-text-align:center;
-font-size:36px;
-}
-
-.subtitle{
-text-align:center;
-opacity:0.8;
-margin-bottom:30px;
-}
-
-.center{
-text-align:center;
-}
-
-button{
-padding:12px 25px;
-font-size:16px;
-border:none;
-border-radius:8px;
-cursor:pointer;
-margin:10px;
-}
-
-.live-btn{
-background:#28a745;
-color:white;
-}
-
-.linkedin{
-background:#0077b5;
-color:white;
-}
-
-.github{
-background:#333;
-color:white;
-}
-
-img{
-max-width:100%;
-border-radius:10px;
-box-shadow:0 10px 20px rgba(0,0,0,0.15);
-}
-
-.section{
-margin-top:50px;
-}
-
-pre{
-background:#eee;
-padding:20px;
-border-radius:8px;
-overflow:auto;
-}
-
-ul li{
-margin:8px 0;
-}
-
-ol li{
-margin:8px 0;
-}
-
-.footer{
-margin-top:60px;
-text-align:center;
-opacity:0.8;
-}
-
-</style>
-
-</head>
-
-<body>
-
-<div class="container">
-
-<h1>🖼️ Image Steganography Web Tool</h1>
-
-<p class="subtitle">
+<p align="center">
 A simple browser-based tool that hides files inside an image and extracts them later using a passcode.
 </p>
 
-
-<div class="center">
+<p align="center">
 
 <a href="https://mdnosibulislam.github.io/Images-magic/">
-<button class="live-btn">
-🚀 Open Live Website
-</button>
+<img src="https://img.shields.io/badge/🚀%20Open%20Live%20Website-Click%20Here-brightgreen?style=for-the-badge">
 </a>
 
-</div>
+</p>
 
+<p align="center">
 
-<div class="section">
+<img src="https://img.shields.io/badge/HTML-orange?style=for-the-badge">
+<img src="https://img.shields.io/badge/CSS-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge">
+<img src="https://img.shields.io/badge/Open%20Source-Project-success?style=for-the-badge">
+
+</p>
+
+<hr>
 
 <h2>📸 Website Preview</h2>
 
-<div class="center">
+<p align="center">
+<img src="website screenshot.png" width="750">
+</p>
 
-<img src="screenshot.png" alt="Website Preview">
+<p align="center">
+(Add a screenshot of your website and upload it as <b>screenshot.png</b>)
+</p>
 
-<p>Add a screenshot of your website and name it <b>screenshot.png</b></p>
-
-</div>
-
-</div>
-
-
-<div class="section">
+<hr>
 
 <h2>✨ Features</h2>
 
@@ -143,15 +41,12 @@ A simple browser-based tool that hides files inside an image and extracts them l
 <li>Hide files inside an image</li>
 <li>Extract hidden files using passcode</li>
 <li>Automatic ZIP packaging</li>
-<li>Simple browser interface</li>
-<li>No server required</li>
+<li>Clean browser interface</li>
 <li>Works completely offline</li>
+<li>No server required</li>
 </ul>
 
-</div>
-
-
-<div class="section">
+<hr>
 
 <h2>🛠 Technologies Used</h2>
 
@@ -162,10 +57,7 @@ A simple browser-based tool that hides files inside an image and extracts them l
 <li>JSZip Library</li>
 </ul>
 
-</div>
-
-
-<div class="section">
+<hr>
 
 <h2>📂 Project Structure</h2>
 
@@ -182,10 +74,7 @@ image-steganography-tool
 └── README.md
 </pre>
 
-</div>
-
-
-<div class="section">
+<hr>
 
 <h2>⚙️ How To Use</h2>
 
@@ -199,6 +88,7 @@ image-steganography-tool
 <li>A new encoded image will download</li>
 </ol>
 
+<br>
 
 <h3>Decode (Extract File)</h3>
 
@@ -209,63 +99,48 @@ image-steganography-tool
 <li>The hidden file downloads as a ZIP file</li>
 </ol>
 
-</div>
+<hr>
 
-
-<div class="section">
-
-<h2>🚀 Run Locally</h2>
+<h2>🚀 Run Project Locally</h2>
 
 <pre>
 git clone https://github.com/mdnosibulislam/Images-magic.git
 </pre>
 
-<p>Open <b>index.html</b> in your browser.</p>
+<p>
+Open the <b>index.html</b> file in your browser.
+</p>
 
-</div>
-
-
-<div class="section">
+<hr>
 
 <h2>⚠️ Note</h2>
 
 <p>
-This project demonstrates the basic concept of image steganography and is intended for learning purposes.
+This project demonstrates the basic concept of <b>image steganography</b> and is intended for learning purposes.
 </p>
 
 <p>
 This project was created with the assistance of <b>ChatGPT</b> using a no-code guidance approach.
 </p>
 
-</div>
-
-
-<div class="section">
+<hr>
 
 <h2>👨‍💻 Author</h2>
 
-<div class="center">
+<p>
 
 <a href="https://www.linkedin.com/in/md-nosibul-islam-connect">
-<button class="linkedin">LinkedIn</button>
+<img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge">
 </a>
 
 <a href="https://github.com/mdnosibulislam">
-<button class="github">GitHub</button>
+<img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge">
 </a>
 
-</div>
+</p>
 
-</div>
+<hr>
 
-
-<div class="footer">
-
-<p>⭐ If you like this project, consider giving it a star on GitHub.</p>
-
-</div>
-
-</div>
-
-</body>
-</html>
+<p align="center">
+⭐ If you like this project, consider giving it a star on GitHub.
+</p>
